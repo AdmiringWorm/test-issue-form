@@ -1,0 +1,67 @@
+name: Bug report
+about: Create a report to help us improve
+title: ""
+issue_body: true
+inputs:
+  - type: description
+    attributes:
+      value: |
+        This issue form is for reporting bugs only!
+
+        Please use one of the other forms for feature or enhancement requests, or the discussions for questions.
+  - type: textarea
+    attributes:
+      label: The description of the bug
+      required: true
+      description: >-
+        Please describe the issue that you are experiencing that you wish to communicate with
+        the maintainers. Tell us what you were trying to do and what happened.
+
+        Provide a clear and concise description of what the problem is.
+  - type: textarea
+    attributes:
+      label: The steps to reproduce the bug
+      required: false
+      description: >-
+        Please describe the exact steps necessary to follow to reproduce the bug that
+        you experienced. For simple bugs this may not be required, but will help
+        to ensure the bug will be fixed quicker and correctly.
+  - type: textarea
+    attributes:
+      label: What did you expect to happen instead of the bug?
+      required: true
+      description: >-
+        Please describe what you expected to happen instead of the
+        bug that you are reporting.
+  - type: dropdown
+    attributes:
+      label: Which Operating System are you using?
+      required: true
+      description: >-
+        Please select the operating system that you experienced this bug on.
+        Please also use the Additional Details section to narrow down any CI
+        or linux distro in use.
+      choices:
+        - Windows 10
+        - Windows 8.1
+        - Windows 8.0
+        - Arch Linux
+        - Debian/Ubuntu
+        - Other Linux
+        - Mac OSX
+    - type: input
+      attributes:
+        label: What version of [INPUT APP NAME HERE] did this bug appear on?
+        description: >-
+          Please input the exact version of the application that you was
+          running at the time this bug occurred. Feel free to add additonal versions
+          if they are known to have the bug as well.
+    - type: description
+      attributes:
+        value: "## Additional information"
+    - type: description
+      attributes:
+        value: >-
+        If you have any additonal information for us, please use the field below.
+        Please note, you can attach screenshots or screen recordings here, by
+        dragging and dropping files in the field below.
