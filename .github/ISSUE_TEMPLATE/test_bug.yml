@@ -35,3 +35,13 @@ body:
       render: bash
     validations:
       required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen instead of the bug?
+      description: |
+        Please describe what you expected to happen insead of the
+        bug that you are reporting.
+    validations:
+      required: true
