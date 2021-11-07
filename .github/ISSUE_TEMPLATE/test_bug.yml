@@ -30,14 +30,14 @@ body:
     attributes:
       label: What did you expect to happen instead of the bug?
       required: true
-      description: >-
+      description: |
         Please describe what you expected to happen instead of the
         bug that you are reporting.
   - type: dropdown
     attributes:
       label: Which Operating System are you using?
       required: true
-      description: >-
+      description: |
         Please select the operating system that you experienced this bug on.
         Please also use the Additional Details section to narrow down any CI
         or linux distro in use.
