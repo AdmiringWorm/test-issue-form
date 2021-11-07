@@ -62,7 +62,7 @@ body:
         - Debian/Ubuntu
         - Other Linux
         - Mac OSX
-    attributes:
+    validations:
       required: true
   - type: input
     id: app-version
