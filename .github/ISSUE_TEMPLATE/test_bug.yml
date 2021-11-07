@@ -45,3 +45,42 @@ body:
         bug that you are reporting.
     validations:
       required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Which Operating System are you using?
+      description: |
+        Please select the operating system that you experienced this bug on.
+        Please also use Additional Details section to narrow down any CI
+        or linux distro in use.
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 8.1
+        - Winndows 8.0
+        - Arch Linux
+        - Debian/Ubuntu
+        - Other Linux
+        - Mac OSX
+    attributes:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: What version of [INPUT APP NAME HERE] did this bug appear on?
+      description: |
+        Please input the exact version of the application that you was
+        running at the time this bug occurred. Feel free to add additional versions
+        if they are known to have the bug as well.
+  - type: description
+    attributes:
+      value: "## Additional information"
+  - type: description
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+        
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
