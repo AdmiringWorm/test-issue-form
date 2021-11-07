@@ -7,3 +7,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: The description of the bug
+      description: |
+        Please describe the issue that you are experiencing that you wish to communicate with
+        the maintainers. Tell us what you were trying to do and what happened.
+        
+        Provide a clear and concise description of what the problem is.
+    validations:
+      required: true
