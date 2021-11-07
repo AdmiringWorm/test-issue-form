@@ -18,3 +18,20 @@ body:
         Provide a clear and concise description of what the problem is.
     validations:
       required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: The steps to roproduce the bug
+      description: |
+        Please describe the exact steps necessary to follow the to reproduce the bug that
+        you experienced. For simple bugs this may not be required, but will help
+        to ensure the bug will be fixed quicker and correctly.
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: false
