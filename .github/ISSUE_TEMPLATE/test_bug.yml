@@ -2,7 +2,7 @@ name: Bug report
 description: Create a report to help us improve
 title: ""
 issue_body: true
-inputs:
+body:
   - type: description
     attributes:
       value: |
