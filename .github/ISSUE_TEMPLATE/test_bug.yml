@@ -72,10 +72,10 @@ body:
         Please input the exact version of the application that you was
         running at the time this bug occurred. Feel free to add additional versions
         if they are known to have the bug as well.
-  - type: description
+  - type: markdown
     attributes:
       value: "## Additional information"
-  - type: description
+  - type: textarea
     attributes:
       label: Anything else?
       description: |
